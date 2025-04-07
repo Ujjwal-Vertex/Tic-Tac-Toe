@@ -1,7 +1,7 @@
 # Tic-Tac-Toe
 
 # Click here👇<br>
-- [visit this page](https://ujjwaltri-compiler.netlify.app/)
+- [visit this page](https://ujjwaltri-game.netlify.app/)
 Description
 
 This is a simple and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript. It allows two players to take turns and play the classic Tic Tac Toe game on a 3x3 grid. The game also includes additional features like theme switching and background customization.
