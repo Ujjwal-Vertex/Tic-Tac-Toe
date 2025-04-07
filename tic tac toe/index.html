@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="overlay">
+        <h1>Tic Tac Toe</h1>
+        
+        <div class="controls">
+            <button class="btn" id="resetBtn">
+                <i class="fas fa-redo"></i> Reset Game
+            </button>
+            <button class="btn" id="themeBtn">
+                <i class="fas fa-moon"></i> Dark Mode
+            </button>
+            <button class="btn" id="bgBtn">
+                <i class="fas fa-image"></i> Change Background
+            </button>
+        </div>
+        
+        <div class="background-options" id="bgOptions">
+            <div class="background-option" style="background-image: url('https://images.unsplash.com/photo-1579547945413-497e1b99dac0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')"></div>
+            <div class="background-option" style="background-image: url('https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')"></div>
+            <div class="background-option" style="background-image: url('https://images.unsplash.com/photo-1519608487953-e999c86e7455?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')"></div>
+            <div class="background-option" style="background-image: url('https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')"></div>
+            <div class="background-option" style="background-image: url('https://images.unsplash.com/photo-1518895949257-7621c3c786d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')"></div>
+            <div class="background-option" style="background-image: url('lion.jpg')"></div>
+            <div class="background-option" style="background-image: url('leaf.jpg')"></div>
+            <div class="background-option" style="background-image: url('nat.jpg')"></div>
+            <div class="background-option" style="background-image: url('night.jpg')"></div>
+            <div class="background-option" style="background-image: url('sk.jpg')"></div>
+            <div class="background-option" style="background-image: url('https://images.unsplash.com/photo-1517486808906-6ca8b3f8e1c1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')"></div>
+        </div>
+        
+        <div class="status" id="status">Player X's turn</div>
+        
+        <div class="game-container" id="gameBoard">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
