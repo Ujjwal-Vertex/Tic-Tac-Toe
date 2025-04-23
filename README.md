@@ -40,7 +40,7 @@ Tic-Tac-Toe/
 
 Clone this repository:
 
-git clone https://github.com/ujjwal-vertex/ujjawal-online-code-compiler.git
+git clone https://github.com/ujjwal-vertex/ujjawal-game.git
 
 Open index.html in any modern web browser.
 
