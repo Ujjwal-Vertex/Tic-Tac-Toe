@@ -1,4 +1,4 @@
-# Tic-Tac-Toe
+# Tic-Tac-Toe game
 
 # Click here👇<br>
 - [visit this page](https://ujjwaltri-game.netlify.app/)
